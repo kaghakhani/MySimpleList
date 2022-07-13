@@ -12,7 +12,7 @@
         android:scaleType="fitCenter"
         android:src="@drawable/ic_launcher_background" />
 
-    <!--Creating a TextView-->
+    <!--Creating a Title-->
     <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="match_parent"
@@ -27,6 +27,7 @@
         android:textSize="40sp"
         android:textStyle="bold|italic" />
 
+    <!--Creating a Message-->
     <TextView
         android:id="@+id/textViewMessage"
         android:layout_width="match_parent"
